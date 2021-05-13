@@ -1,0 +1,22 @@
+.data-primary{
+  background-color: #12D1DB;
+  color:white
+}
+.data-dark{
+  background-color:#3A4256;
+  color:white
+}
+.data-icon{
+  font-size: 3em;
+  /* margin-left: 1em; */
+}
+/* @media (max-width:1050px){
+  .data-icon{
+    margin-left: .5em;
+  }
+}
+@media (max-width:750px){
+  .data-icon{
+    margin-left: .9em;
+  }
+} */
