@@ -4,6 +4,13 @@ import HeaderMain from '../HeaderMain/HeaderMain';
 import Navigation from '../Navigation/Navigation';
 import InfoData from '../InfoData/InfoData';
 import ServiceData from '../ServiceData/ServiceData';
+import FeaturedServices from '../FeaturedServices/FeaturedServices';
+import MakeAppointment from '../MakeAppointment/MakeAppointment';
+import TestimonialData from '../TestimonialData/TestimonialData';
+import BlogData from '../BlogData/BlogData';
+import DoctorsData from '../DoctorsData/DoctorsData';
+import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
   return (
@@ -12,6 +19,13 @@ const Home = () => {
       <HeaderMain />
       <InfoData />
       <ServiceData />
+      <FeaturedServices />
+      <MakeAppointment />
+      <TestimonialData />
+      <BlogData />
+      <DoctorsData />
+      <Contact />
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,6 @@
+.flex-class {
+  display:flex;
+  justify-content:center;
+  align-items: start;
+  flex-flow: column;
+ }
