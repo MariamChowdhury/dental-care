@@ -6,6 +6,8 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './Components/HomePage/Home/Home';
+import Error from './Components/ErrorPage/Error';
+import Appointment from './Components/AppointmentPage/Appointment/Appointment';
 function App() {
   return (
     <Router>
@@ -13,8 +15,15 @@ function App() {
         <Route exact path='/'>
           <Home />
         </Route>
-        <Route exact path='/home'>
+        <Route path='/home'>
           <Home />
+        </Route>
+        <Route path='/appointment'>
+        <Appointment />
+        </Route>
+
+        <Route path ='*'>
+          <Error />
         </Route>
       </Switch>
     </Router>

@@ -21,7 +21,7 @@ const ServiceData = () => {
   return (
     <div className='my-5'>
       <div className='text-center my-5'>
-        <h5 className='blue-font'>OUR SERVICES</h5>
+        <h5 className='green-font'>OUR SERVICES</h5>
         <h1>Services We Provide</h1>
       </div>
      <div className="d-flex justify-content-center py-5">

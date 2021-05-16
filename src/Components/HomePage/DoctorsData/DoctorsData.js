@@ -27,7 +27,7 @@ const DoctorsData = () => {
   return (
     <div className='my-5 py-5'>
       <div className="container my-5">
-        <h3 className='blue-font text-center text-uppercase'>Our Doctors</h3>
+        <h3 className='green-font text-center text-uppercase'>Our Doctors</h3>
         <div className="row">
           {
             data.map(data => <Doctor data={data}></Doctor>)

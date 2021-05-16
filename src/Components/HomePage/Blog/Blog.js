@@ -6,7 +6,7 @@ const Blog = ({ blog }) => {
       <div className="card-header d-flex  align-items-center">
         <img className="mx-3" src={blog.img} alt="" width="60" />
         <div>
-          <h6 className="text-primary">{blog.name}</h6>
+          <h6 className="green-font">{blog.name}</h6>
           <p className="m-0">{blog.date}</p>
         </div>
       </div>

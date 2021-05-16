@@ -10,10 +10,10 @@ const MakeAppointment = () => {
                 <img src={doctor} alt=""/>
             </div>
             <div className="col-md-7 py-5 px-5 ">
-                <h5 className="text-uppercase blue-font">Appointment</h5>
+                <h5 className="text-uppercase green-font">Appointment</h5>
                 <h1 className="my-4">Make an Appointment <br/> Today</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque magnam ad consequuntur assumenda saepe hic amet nemo ea facere a!</p>
-                <button className="btn blue-color text-white">Learn More</button>
+                <button className="btn green-color text-white">Learn More</button>
             </div>
         </div>
     </div>

@@ -9,7 +9,7 @@ const Doctor = ({ data }) => {
         <div class="card-body text-center">
           <h5 class="card-title">{data.name}</h5>
           <div class="card-text my-3">
-          <p><FontAwesomeIcon icon={data.icon} className='blue-font' />  {data.number}</p>
+          <p><FontAwesomeIcon icon={data.icon} className='green-font' />  {data.number}</p>
            
           </div>
         </div>

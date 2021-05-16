@@ -9,7 +9,7 @@ const Testimonial = ({Data}) => {
             <div className="card-footer d-flex  align-items-center">
                 <img className="mx-3" src={Data.img} alt="" width="60"/>
                 <div>
-                    <h6 className="blue-font">{Data.name}</h6>
+                    <h6 className="green-font">{Data.name}</h6>
                     <p className="m-0">{Data.location}</p>
                 </div>
             </div>

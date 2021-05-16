@@ -27,7 +27,7 @@ const TestimonialData = () => {
     <section className="testimonials my-5 py-5">
            <div className="container">
                <div className="section-header">
-                   <h5 className="blue-font  text-uppercase mx-3">Testimonial</h5>
+                   <h5 className="green-font  text-uppercase mx-3">Testimonial</h5>
                    <h1 className='mx-3  gray-font'>What Our Patients <br/> Says </h1>
                </div>
                <div className="card-group mt-5">
