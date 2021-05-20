@@ -5,5 +5,4 @@
 * Doctors can add new doctors
 * Visitors can't see the doctor dashboard
 * Authentication system has been implemented by firebase
-* 
 
