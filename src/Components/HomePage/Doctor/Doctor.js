@@ -1,16 +1,22 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Doctor = ({ data }) => {
+const Doctor = ({ doctor }) => {
   return (
     <div className="col-md-4 my-5">
       <div className="card border-0">
-        <img src={data.img} class="card-img-top" alt="..." />
+        {doctor.image ? (
+          <img src={`data:image/png;base64,${doctor.image.img}`} alt="" />
+        ) : (
+          <img
+            className="mb-3"
+            src={`https://aqueous-bastion-84175.herokuapp.com/${doctor.img}`}
+            alt=""
+          />
+        )}
         <div class="card-body text-center">
-          <h5 class="card-title">{data.name}</h5>
+          <h5 class="card-title">{doctor.name}</h5>
           <div class="card-text my-3">
-          <p><FontAwesomeIcon icon={data.icon} className='green-font' />  {data.number}</p>
-           
+            <p>{doctor.email}</p>
           </div>
         </div>
       </div>

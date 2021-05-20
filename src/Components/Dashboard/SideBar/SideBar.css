@@ -1,0 +1,15 @@
+.sidebar-container {
+  background-color: #295939;
+  height: 80vh;
+}
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  color: white;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: white;
+}

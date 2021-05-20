@@ -3,7 +3,7 @@ import img01 from "../../../images/Ellipse 1.png";
 import img02 from "../../../images/Ellipse 2.png";
 import img03 from "../../../images/Ellipse 3.png";
 import Blog from "../Blog/Blog";
-import './BlogData.css'
+import "./BlogData.css";
 const BlogData = () => {
   const blogs = [
     {
@@ -33,7 +33,9 @@ const BlogData = () => {
           <h1>From Our Blog News</h1>
         </div>
         <div className="card-group mt-5">
-          {blogs.map((blog) => <Blog blog={blog}></Blog>)}
+          {blogs.map((blog) => (
+            <Blog blog={blog}></Blog>
+          ))}
         </div>
       </div>
     </section>

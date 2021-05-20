@@ -1,31 +1,27 @@
-.blogs .card{
+.blogs .card {
   border: 0;
 }
-.blogs .card-header{
+.blogs .card-header {
   border: 0;
   background-color: transparent;
-
-
 }
 
-.blogs .card:hover{
-  background-image: linear-gradient(75deg, #19D3AE,#295939);
+.blogs .card:hover {
+  background-image: linear-gradient(75deg, #19d3ae, #295939);
   color: #fff !important;
-  transition:  .1s  all ease-in-out !important;
+  transition: 0.1s all ease-in-out !important;
 }
-.blogs .card:hover .card-body{
-  background-image: url('../../../images/quote.png');
+.blogs .card:hover .card-body {
+  background-image: url("../../../images/quote.png");
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 60%;
-  transition:  .1s  all ease-in-out !important;
+  transition: 0.1s all ease-in-out !important;
 }
 .blogs .card:hover h6,
-.blogs .card:hover p
-{
+.blogs .card:hover p {
   color: #fff !important;
-
 }
-.blogs .card:hover img{
+.blogs .card:hover img {
   display: none;
 }

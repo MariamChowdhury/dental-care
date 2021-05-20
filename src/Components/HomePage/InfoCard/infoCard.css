@@ -1,11 +1,11 @@
-.data-primary{
+.data-primary {
   background-color: #295939;
-  color:white
+  color: white;
 }
-.data-dark{
-  background-color:#929AAB;
-  color:white
+.data-dark {
+  background-color: #929aab;
+  color: white;
 }
-.data-icon{
+.data-icon {
   font-size: 3em;
 }
